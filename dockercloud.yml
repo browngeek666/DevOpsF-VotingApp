@@ -6,7 +6,7 @@ redis:
   restart: always
 result:
   autoredeploy: true
-  image: 'docker/example-voting-app-result:latest'
+  image: 'browngeek666/example-voting-app-result:latest'
   ports:
     - '80:80'
   restart: always
